@@ -1,0 +1,25 @@
+{
+  "name": "taskmill-core-man",
+  "version": "1.0.0",
+  "description": "man page processing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a7medkamel/taskmill-core-man.git"
+  },
+  "author": "a7medkamel <ak@ahmedkamel.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a7medkamel/taskmill-core-man/issues"
+  },
+  "homepage": "https://github.com/a7medkamel/taskmill-core-man",
+  "dependencies": {
+    "babel-core": "^5.2.9",
+    "doctrine": "^0.6.4",
+    "safe-json-parse": "^4.0.0",
+    "underscore": "^1.8.3"
+  }
+}
