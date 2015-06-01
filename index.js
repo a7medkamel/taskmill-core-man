@@ -15,6 +15,7 @@ var doc_tags = [
   , 'type'
   , 'input'
   , 'output'
+  , 'group'
 ];
 
 function get(content /*string or parsed obj*/) {
