@@ -16,6 +16,7 @@ var doc_tags = [
   , 'input'
   , 'output'
   , 'group'
+  , 'cache'
 ];
 
 function get(content /*string or parsed obj*/) {
