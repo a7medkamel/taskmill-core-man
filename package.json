@@ -1,6 +1,6 @@
 {
   "name": "taskmill-core-man",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "man page processing",
   "main": "index.js",
   "scripts": {

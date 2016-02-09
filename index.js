@@ -52,6 +52,8 @@ function get(content /*string or parsed obj*/) {
       var parsed = safe_parse(manual.output);
       manual.output = parsed[0]? new Error(parsed[0]) : parsed[1];
     }
+
+    manual = _.compact(manual);
   }
 
   return manual;
