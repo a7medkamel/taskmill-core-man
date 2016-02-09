@@ -53,7 +53,7 @@ function get(content /*string or parsed obj*/) {
       manual.output = parsed[0]? new Error(parsed[0]) : parsed[1];
     }
 
-    manual = _.pick(manual, _.isEmpty);
+    manual = _.pick(manual, (value) => !_.isEmpty(value));
   }
 
   return manual;
