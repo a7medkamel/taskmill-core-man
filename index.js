@@ -2,7 +2,6 @@ var _                 = require('underscore')
   , doctrine          = require('doctrine')
   , babel             = require('babel-core')
   , safe_parse        = require('safe-json-parse/tuple')
-  , middleware        = require('./lib/middleware')
   ;
 
 var doc_tags = [
@@ -60,6 +59,5 @@ function get(content /*string or parsed obj*/) {
 };
 
 module.exports = {
-    get         : get
-  , middleware  : middleware.middleware
+    get : get
 };

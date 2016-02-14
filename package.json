@@ -20,7 +20,6 @@
     "babel-core": "^6.3.26",
     "body-parser": "^1.14.2",
     "doctrine": "^1.0.0",
-    "express-content-type-override": "^1.0.2",
     "safe-json-parse": "^4.0.0",
     "underscore": "^1.8.3"
   }
