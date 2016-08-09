@@ -52,6 +52,7 @@ function get(content /*string or parsed obj*/) {
       manual.output = parsed[0]? new Error(parsed[0]) : parsed[1];
     }
 
+    // also doable using _.pick(manual, _.identity)
     manual = _.pick(manual, (value) => !_.isEmpty(value));
   }
 
