@@ -35,7 +35,7 @@ function get(content /*string or parsed obj*/) {
           if (!_.has(manual, tag.title)) {
             manual['pragma'] = [];
           }
-          manual['pragma'].push(tag.description);
+          manual['pragma'].push(_.trim(tag.description));
           break;
           default:
           if (!_.has(manual, tag.title)) {
